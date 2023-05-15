@@ -109,8 +109,10 @@ h5{
 }
 
 .sections{
-    font-size: 35px;
-    margin: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    font-size: 30px;
 }
 
 h6{
@@ -123,7 +125,8 @@ h6{
 
 .contactSection{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
 }
 
@@ -175,7 +178,7 @@ footer p{
 }
 
 .irrigationText{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .typesOfIrrigation{
