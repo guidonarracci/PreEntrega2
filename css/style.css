@@ -7,23 +7,26 @@ a{
 }
 
 h1{
+    display: flex;
     color: rgb(250, 254, 123);
     text-decoration-line: underline;
+}
+
+.container-fluid{
+    display: grid;
+    justify-content: end;
 }
 
 header{
     width: 100%;
     padding: 10px 12px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     background: rgba(0,0,0,0.5);
     grid-area: header;
 }
 
 header img{
     width: 100px;
-    display: flex;
     top: 0;
     left: 0;
 }
