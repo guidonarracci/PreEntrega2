@@ -1,0 +1,16 @@
+footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $background-color_2;
+	grid-area: footer;
+	p {
+		color: $color_2;
+		padding: 0px 10px;
+		font-size: 20px;
+	}
+    img{
+        width: 75px;
+    }
+}

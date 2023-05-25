@@ -1,0 +1,11 @@
+* {
+	font-family: $font-family_1;
+}
+main {
+	grid-area: main;
+	width: 100%;
+    h3{
+        color: $color_1;
+	font-size: 30px;
+    }
+}

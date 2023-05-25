@@ -1,0 +1,21 @@
+header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  grid-area: header;
+}
+header img {
+  width: 100px;
+}
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+header ul li {
+  padding: 20px;
+  font-size: 23px;
+  display: flex;
+}
+
+/*# sourceMappingURL=header.css.map */
