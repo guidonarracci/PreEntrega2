@@ -4,18 +4,16 @@ header {
   width: 100%;
   grid-area: header;
 }
+header nav {
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+}
 header img {
   width: 100px;
 }
-header ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
 header ul li {
   padding: 20px;
-  font-size: 23px;
-  display: flex;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=header.css.map */

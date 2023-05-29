@@ -1,3 +1,8 @@
-
+.imageExperience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px;
+}
 
 /*# sourceMappingURL=about-us.css.map */
