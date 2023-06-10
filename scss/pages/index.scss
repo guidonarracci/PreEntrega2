@@ -9,6 +9,10 @@ a {
 	display: flex;
 	justify-content: center;
 }
+.banner{
+	margin-top: 117px;
+	margin-bottom: -100px;
+}
 body {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
@@ -20,11 +24,22 @@ body {
 	background-image: linear-gradient(to top, rgb(84, 83, 83), rgb(59, 59, 59), rgb(39, 39, 39));
 }
 .container {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	margin-block: 200px;
+	p{
+		font-weight: 700;
+		color: rgb(255, 255, 255);
+		font-size: 40px;
+	}
 }
 h1 {
+	margin-top: 100px;
+	font-size: 50px;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
 	color:rgb(255, 255, 255);
 }
 h2 {
