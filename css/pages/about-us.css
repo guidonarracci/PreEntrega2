@@ -2,13 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-.imageExperience {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 50px;
+  padding: 50px;
 }
 
 /*# sourceMappingURL=about-us.css.map */

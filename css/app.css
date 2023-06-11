@@ -160,13 +160,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-.imageExperience {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 50px;
+  padding: 50px;
 }
 
 .contactForm {
@@ -318,7 +312,10 @@ img.btn-whatsapp:hover {
 }
 
 .maintenanceImage {
-  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
 }
 
 /*# sourceMappingURL=app.css.map */
