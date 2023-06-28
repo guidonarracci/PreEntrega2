@@ -2,6 +2,50 @@ main {
 	grid-area: main;
 	width: 100%;
 }
+#knowUsSection{
+	overflow: hidden;
+	display: flex;
+	background: rgba(118, 117, 117, 0.871);
+	height: 755px;
+	.container-fluid{
+		img{
+			position: relative;
+			max-width: 1250px;
+			@media (max-width: 2000px){
+				margin-left: 620px;
+			}
+			@media (max-width: 777px){
+				margin-left: 80px;
+				max-width: 725px;
+			}
+		}
+	}
+	.text{
+		font-family: 'Mulish', sans-serif;
+		color: whitesmoke;
+		p{
+			position: absolute;
+			z-index: 1000;
+			margin-top: 0;
+			font-weight: 700;
+			font-size: 3vh;
+			padding: 5px;
+			text-align: center;
+		}
+	}
+}
+#irrigationSystemsinfo{
+	.row{
+		display: flex;
+		align-items: center;
+	}
+	p{
+		align-content: center;
+		color: white;
+		font-size: 2vh;
+		font-weight: 400;
+	}
+}
 .brands{
 	height: 500px;
 	p {

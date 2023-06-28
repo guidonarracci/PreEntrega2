@@ -1,26 +1,30 @@
 header {
     position: fixed;
-    z-index: 1000;
+    z-index: 1000000000;
     width: 100%;
 	grid-area: header;
-	nav{
-		width: 100%;
+	.navbar{
+		img{
+			width: 300px;
+		}
+		.dropdown-menu{
+			a{
+				color: black;
+			}
+		}
+		a{
+			color: white;
+		}
 		background-color: rgb(22, 22, 22);
-		.contact{
-			font-size: 24px;
-			background-color: white;
-			transition: background-color .5s;
-			color: black;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: end;
-			width: 140px;
-			height: 55px;
-			border: none;
-			border-radius: 4px;
-			&:hover{
-				background-color: orange;
+		.collapse{
+			flex-grow: 0;
+			.btn-outline-success{
+				a{
+					color: white;
+					font-size: 25px;
+					font-family: $font-family_1;
+					text-decoration: none;
+				}
 			}
 		}
 	}	
@@ -30,7 +34,7 @@ header {
 	ul {
 		li {
 			padding: 20px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 	}
 }

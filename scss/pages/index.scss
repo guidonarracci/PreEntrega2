@@ -20,13 +20,10 @@ body {
 }
 .container {
 	display: flex;
-	justify-content: center;
 	margin-block: 200px;
 }
-#banner{
-	margin-top: 117px;
-	margin-bottom: -100px;
-	width: 100%;
+#carouselExampleCaptions{
+	margin-top: -99px;
 	a{
 		font-weight: 600;
 		background-color: rgba(255, 255, 255, 0.865);
@@ -48,25 +45,28 @@ body {
 	}
 }
 .mainText{
+	margin-top: -130px;
 	position: relative;
 	p{
-		font-weight: 700;
+		margin-top: -60px;
+		font-weight: 400;
 		color: rgb(255, 255, 255);
-		font-size: 30px;
+		font-size: 3vh;
 	}
 }
 h1 {
 	margin-top: 100px;
 	margin-bottom: 100px;
-	font-size: 50px;
-	font-weight: 600;
+	font-size: 4vh;
+	font-weight: 700;
 	display: flex;
 	justify-content: center;
 	color:rgb(255, 255, 255);
 }
 h2 {
 	color: $color_primary;
-	font-size: 50px;
+	font-size: 4vh;
+	font-weight: 700;
 	margin-bottom: 20px;
 }
 h3 {
